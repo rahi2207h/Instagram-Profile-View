@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img class="instagram-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/1200px-Instagram_logo_2016.svg.png" alt="Instagram Logo">
+
+            <h1 >Instagram </h1>
+            <input id="User" type="text" placeholder="Userprofile">
+            <br><br>
+            <button onclick="profile()">CHECK</button>
+            <br><br>
+            <a id="ans" href="#" target="_blank"></a>
+        </div>
+    </div>
+    <script>
+        function profile() {
+            let input = document.getElementById("User");
+            let ans = document.getElementById("ans");
+            ans.href = "https://www.instagram.com/"+input.value;
+            ans.innerHTML = "View Profile";
+        }
+    </script>
+</body>
+</html>
