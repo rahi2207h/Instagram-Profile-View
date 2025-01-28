@@ -1,0 +1,61 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color:rgb(250, 180, 222);
+}
+.container {
+    justify-content: center;
+    margin: 0;
+    padding: 10px 5px;
+    border-radius: 20px;
+    align-items: center;
+    height: 100%;
+    display: flex;
+}
+.box {
+
+    text-align: center;
+    align-items: center;
+    padding: 50px 50px;
+    background-color: rgb(241, 224, 235);
+    border-radius: 10%;
+    box-shadow: 14px 14px rgb(216, 107, 178);
+  
+}
+button {
+    padding: 10px 110px;
+    box-shadow: 10px 10px;
+
+}
+span {
+    color: rgb(212, 162, 194);
+}
+button:hover {
+    background-color: rgb(227, 186, 214);
+}
+input {
+    color: black;
+    padding: 10px 50px;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: rgb(55, 54, 54);
+text-shadow: 2px 2px 4px #d8b6a2;
+}
+.instagram-logo {
+    width: 50px;
+    height: 50px;
+    margin: 20px auto;
+    animation: rotate 2s infinite;
+}
+@keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+}    
